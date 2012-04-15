@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scrollfollow demo</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.scrollfollow.js"></script>
+
+	<style>
+	body{
+		font-family:helvetica;
+		font-size:13px;
+		background-color:#333;
+	}
+
+	.content {
+		margin: 20px 0px 40px 0px;
+	}
+
+	.scrollcontainer{
+		background-color:#eee;
+		min-height:2000px;
+		width:200px;
+		margin-left:auto;
+		margin-right:auto;
+		padding:20px 20px;
+
+	}
+
+	.container3 .scrollfollow{
+		height:40px;
+	}
+
+	.scrollfollow{		
+		padding:10px;
+		margin-bottom:10px;
+		border-radius:2px;
+		box-shadow:0px 1px 5px #000;
+		background-color:darkorange;
+	}
+
+	.scrollfollow.fixed, .scrollfollow.absolute{
+		border-radius:2px;
+		box-shadow:0px 1px 5px #000;	
+		margin-bottom:10px;	
+	}
+
+
+
+	
+
+	.scrollfollow.placeholder{
+		visibility: hidden;
+	}
+	
+	</style>
+
+	<script type="text/javascript">
+
+$(function() {
+
+	$('.scrollfollow').scrollfollow({
+		marginTop: 10,
+		speed: 200
+	});
+});
+
+	</script>
+</head>
+<body>
+
+
+	<div class="left" style="height:5500px;float:left; width:300px;">
+&nbsp;
+	</div>
+
+
+
+	<div class="scrollcontainer container3" style="float:left;">
+
+		
+		<div class="scrollfollow">Sticky content 1</div>
+
+		<div class="content">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+		</div>
+
+		<div class="scrollfollow">Sticky content 2</div>
+
+		<div class="content">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+		</div>
+
+		<div class="scrollfollow">Sticky content 3</div>
+		<div class="content">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+		</div>
+
+		<div class="scrollfollow">Sticky content 4</div>
+
+		<div class="content">
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+		
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla egestas auctor ullamcorper. Sed venenatis elementum fermentum. Sed non imperdiet arcu. Sed at elit sed quam aliquam suscipit ac commodo massa. Phasellus auctor pretium orci sed dictum. Fusce malesuada est et dolor adipiscing id posuere purus placerat. Nullam ut commodo turpis. Donec felis mauris, vestibulum sit amet interdum a, iaculis non tortor.</p>
+		
+		</div>
+
+	</div>
+
+
+</body>
+</html>
