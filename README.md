@@ -1,4 +1,4 @@
-jQuery scrollfollow
+jQuery Multi ScrollFollow
 ===================
 
 
